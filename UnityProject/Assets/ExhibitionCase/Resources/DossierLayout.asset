@@ -1,0 +1,578 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b4fdd24cc88614eb792b9d8315ebda, type: 3}
+  m_Name: DossierLayout
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  sourceNote: Coordinates measured against the supplied dossier_s01-s05 artwork.
+  clues:
+  - clueId: CL_S01_BEHAVIOR
+    imageRect:
+      serializedVersion: 2
+      x: 0.688
+      y: 0.511
+      width: 0.143
+      height: 0.259
+    cardRect:
+      serializedVersion: 2
+      x: 0.841
+      y: 0.478
+      width: 0.129
+      height: 0.293
+    rotationDegrees: -1.5
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.06
+      width: 0.93
+      height: 0.92
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 18
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured top black frame; keep the printed white border visible.
+      Lower-right source watermark trimmed with RawImage.uvRect; original file preserved.
+  - clueId: CL_S01_INFORMATION
+    imageRect:
+      serializedVersion: 2
+      x: 0.634
+      y: 0.11
+      width: 0.173
+      height: 0.276
+    cardRect:
+      serializedVersion: 2
+      x: 0.811
+      y: 0.09
+      width: 0.151
+      height: 0.315
+    rotationDegrees: 6
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.04
+      width: 0.94
+      height: 0.94
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 17
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured lower black frame; rotate with the printed frame. Lower-right
+      source watermark trimmed with RawImage.uvRect; original file preserved.
+  - clueId: CL_S02_BEHAVIOR
+    imageRect:
+      serializedVersion: 2
+      x: 0.688
+      y: 0.511
+      width: 0.143
+      height: 0.259
+    cardRect:
+      serializedVersion: 2
+      x: 0.841
+      y: 0.478
+      width: 0.129
+      height: 0.293
+    rotationDegrees: -1.5
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.04
+      width: 0.94
+      height: 0.94
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 18
+    bodyFontSize: 13
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured top black frame; keep the printed white border visible.
+      Lower-right source watermark trimmed with RawImage.uvRect; original file preserved.
+  - clueId: CL_S02_INFORMATION
+    imageRect:
+      serializedVersion: 2
+      x: 0.634
+      y: 0.11
+      width: 0.173
+      height: 0.276
+    cardRect:
+      serializedVersion: 2
+      x: 0.811
+      y: 0.09
+      width: 0.151
+      height: 0.315
+    rotationDegrees: 6
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 17
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured lower black frame; rotate with the printed frame. No source
+      watermark crop required.
+  - clueId: CL_S03_BEHAVIOR
+    imageRect:
+      serializedVersion: 2
+      x: 0.688
+      y: 0.511
+      width: 0.143
+      height: 0.259
+    cardRect:
+      serializedVersion: 2
+      x: 0.841
+      y: 0.478
+      width: 0.129
+      height: 0.293
+    rotationDegrees: -1.5
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.04
+      width: 0.94
+      height: 0.94
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 18
+    bodyFontSize: 13
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured top black frame; keep the printed white border visible.
+      Lower-right source watermark trimmed with RawImage.uvRect; original file preserved.
+  - clueId: CL_S03_INFORMATION
+    imageRect:
+      serializedVersion: 2
+      x: 0.634
+      y: 0.11
+      width: 0.173
+      height: 0.276
+    cardRect:
+      serializedVersion: 2
+      x: 0.811
+      y: 0.09
+      width: 0.151
+      height: 0.315
+    rotationDegrees: 6
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 17
+    bodyFontSize: 12
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured lower black frame; rotate with the printed frame. No source
+      watermark crop required.
+  - clueId: CL_S04_BEHAVIOR
+    imageRect:
+      serializedVersion: 2
+      x: 0.688
+      y: 0.511
+      width: 0.143
+      height: 0.259
+    cardRect:
+      serializedVersion: 2
+      x: 0.841
+      y: 0.478
+      width: 0.129
+      height: 0.293
+    rotationDegrees: -1.5
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.05
+      width: 0.94
+      height: 0.93
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 18
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured top black frame; keep the printed white border visible.
+      Lower-right source watermark trimmed with RawImage.uvRect; original file preserved.
+  - clueId: CL_S04_INFORMATION
+    imageRect:
+      serializedVersion: 2
+      x: 0.634
+      y: 0.11
+      width: 0.173
+      height: 0.276
+    cardRect:
+      serializedVersion: 2
+      x: 0.811
+      y: 0.09
+      width: 0.151
+      height: 0.315
+    rotationDegrees: 6
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 17
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured lower black frame; rotate with the printed frame. No source
+      watermark crop required.
+  - clueId: CL_S05_BEHAVIOR
+    imageRect:
+      serializedVersion: 2
+      x: 0.688
+      y: 0.511
+      width: 0.143
+      height: 0.259
+    cardRect:
+      serializedVersion: 2
+      x: 0.841
+      y: 0.478
+      width: 0.129
+      height: 0.293
+    rotationDegrees: -1.5
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 18
+    bodyFontSize: 15
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured top black frame; keep the printed white border visible.
+      No source watermark crop required.
+  - clueId: CL_S05_INFORMATION
+    imageRect:
+      serializedVersion: 2
+      x: 0.634
+      y: 0.11
+      width: 0.173
+      height: 0.276
+    cardRect:
+      serializedVersion: 2
+      x: 0.811
+      y: 0.09
+      width: 0.151
+      height: 0.315
+    rotationDegrees: 6
+    uvRect:
+      serializedVersion: 2
+      x: 0
+      y: 0.08
+      width: 0.84
+      height: 0.82
+    titleTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.04
+      width: 0.88
+      height: 0.22
+    bodyTextRect:
+      serializedVersion: 2
+      x: 0.08
+      y: 0.3
+      width: 0.84
+      height: 0.62
+    unknownTextRect:
+      serializedVersion: 2
+      x: 0.06
+      y: 0.26
+      width: 0.88
+      height: 0.48
+    titleFontSize: 17
+    bodyFontSize: 17
+    unknownFontSize: 26
+    bodyLineSpacing: 1.04
+    editorNote: Measured lower black frame; rotate with the printed frame. Lower-right
+      source watermark trimmed with RawImage.uvRect; original file preserved.
+  textLayouts:
+  - suspectId: S01
+    titleRect:
+      serializedVersion: 2
+      x: 0.445
+      y: 0.71
+      width: 0.17
+      height: 0.06
+    profileRect:
+      serializedVersion: 2
+      x: 0.425
+      y: 0.54
+      width: 0.215
+      height: 0.165
+    progressRect:
+      serializedVersion: 2
+      x: 0.548
+      y: 0.478
+      width: 0.09
+      height: 0.05
+    titleFontSize: 25
+    profileFontSize: 22
+    progressFontSize: 15
+    profileLineSpacing: 1.08
+    profileAlignment: 0
+  - suspectId: S02
+    titleRect:
+      serializedVersion: 2
+      x: 0.445
+      y: 0.71
+      width: 0.17
+      height: 0.06
+    profileRect:
+      serializedVersion: 2
+      x: 0.425
+      y: 0.54
+      width: 0.215
+      height: 0.165
+    progressRect:
+      serializedVersion: 2
+      x: 0.548
+      y: 0.478
+      width: 0.09
+      height: 0.05
+    titleFontSize: 25
+    profileFontSize: 21
+    progressFontSize: 15
+    profileLineSpacing: 1.08
+    profileAlignment: 0
+  - suspectId: S03
+    titleRect:
+      serializedVersion: 2
+      x: 0.445
+      y: 0.71
+      width: 0.17
+      height: 0.06
+    profileRect:
+      serializedVersion: 2
+      x: 0.425
+      y: 0.54
+      width: 0.215
+      height: 0.165
+    progressRect:
+      serializedVersion: 2
+      x: 0.548
+      y: 0.478
+      width: 0.09
+      height: 0.05
+    titleFontSize: 22
+    profileFontSize: 21
+    progressFontSize: 15
+    profileLineSpacing: 1.08
+    profileAlignment: 0
+  - suspectId: S04
+    titleRect:
+      serializedVersion: 2
+      x: 0.445
+      y: 0.71
+      width: 0.17
+      height: 0.06
+    profileRect:
+      serializedVersion: 2
+      x: 0.425
+      y: 0.54
+      width: 0.215
+      height: 0.165
+    progressRect:
+      serializedVersion: 2
+      x: 0.548
+      y: 0.478
+      width: 0.09
+      height: 0.05
+    titleFontSize: 24
+    profileFontSize: 22
+    progressFontSize: 15
+    profileLineSpacing: 1.08
+    profileAlignment: 0
+  - suspectId: S05
+    titleRect:
+      serializedVersion: 2
+      x: 0.445
+      y: 0.71
+      width: 0.17
+      height: 0.06
+    profileRect:
+      serializedVersion: 2
+      x: 0.425
+      y: 0.54
+      width: 0.215
+      height: 0.165
+    progressRect:
+      serializedVersion: 2
+      x: 0.548
+      y: 0.478
+      width: 0.09
+      height: 0.05
+    titleFontSize: 25
+    profileFontSize: 22
+    progressFontSize: 15
+    profileLineSpacing: 1.08
+    profileAlignment: 0

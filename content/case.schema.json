@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Unity Mystery Exhibition content configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "caseId", "title", "isPlaceholder", "introAssetId", "finaleAssetId", "backgroundAssetId", "corpseAssetId", "scanning", "settings", "suspects", "clues"],
+  "properties": {
+    "$schema": {"type": "string"},
+    "schemaVersion": {"const": 1},
+    "caseId": {"$ref": "#/$defs/id"},
+    "title": {"type": "string", "minLength": 1},
+    "isPlaceholder": {"type": "boolean"},
+    "introAssetId": {"$ref": "#/$defs/id"},
+    "finaleAssetId": {"$ref": "#/$defs/id"},
+    "backgroundAssetId": {"$ref": "#/$defs/optionalId"},
+    "corpseAssetId": {"$ref": "#/$defs/optionalId"},
+    "scanning": {
+      "type": "object", "additionalProperties": false,
+      "required": ["databaseAssetId", "databaseName"],
+      "properties": {
+        "databaseAssetId": {"$ref": "#/$defs/optionalId"},
+        "databaseName": {"type": "string", "minLength": 1}
+      }
+    },
+    "settings": {
+      "type": "object", "additionalProperties": false,
+      "required": ["scannerMode", "eventPlaybackMode", "dossierAutoPlayDelaySeconds", "stableTrackingSeconds", "rearmAfterLostSeconds", "saveProgress", "allowVideoSkip", "autoRestartSeconds"],
+      "properties": {
+        "scannerMode": {"enum": ["Mock", "Vuforia"]},
+        "eventPlaybackMode": {"enum": ["AfterDossierContinue", "AfterDelay"]},
+        "dossierAutoPlayDelaySeconds": {"type": "number", "minimum": 0},
+        "stableTrackingSeconds": {"type": "number", "exclusiveMinimum": 0},
+        "rearmAfterLostSeconds": {"type": "number", "exclusiveMinimum": 0},
+        "saveProgress": {"type": "boolean"},
+        "allowVideoSkip": {"type": "boolean"},
+        "autoRestartSeconds": {"type": "number", "minimum": 0}
+      }
+    },
+    "suspects": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/suspect"}},
+    "clues": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/clue"}},
+    "detective": {"$ref": "#/$defs/detective"}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$"},
+    "optionalId": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+    "suspect": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "displayName", "profile", "portraitAssetId", "eventVideoAssetId"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "displayName": {"type": "string", "minLength": 1},
+        "profile": {"type": "string", "minLength": 1},
+        "portraitAssetId": {"$ref": "#/$defs/optionalId"},
+        "dossierAssetId": {"$ref": "#/$defs/optionalId"},
+        "eventVideoAssetId": {"$ref": "#/$defs/id"}
+      }
+    },
+    "detective": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "displayName", "informationClueId", "targetName", "targetImageAssetId", "easterEggVideoAssetId"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "displayName": {"type": "string", "minLength": 1},
+        "informationClueId": {"$ref": "#/$defs/id"},
+        "targetName": {"$ref": "#/$defs/id"},
+        "targetImageAssetId": {"$ref": "#/$defs/id"},
+        "easterEggVideoAssetId": {"$ref": "#/$defs/id"}
+      }
+    },
+    "clue": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "suspectId", "slotIndex", "title", "body", "displayImageAssetId", "targetImageAssetId", "targetName", "physicalWidthMeters"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "suspectId": {"$ref": "#/$defs/id"},
+        "slotIndex": {"type": "integer", "enum": [1, 2]},
+        "title": {"type": "string", "minLength": 1},
+        "body": {"type": "string", "minLength": 1},
+        "displayImageAssetId": {"$ref": "#/$defs/optionalId"},
+        "targetImageAssetId": {"$ref": "#/$defs/id"},
+        "targetName": {"$ref": "#/$defs/id"},
+        "physicalWidthMeters": {"anyOf": [{"type": "number", "exclusiveMinimum": 0}, {"type": "null"}]}
+      }
+    }
+  }
+}

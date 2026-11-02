@@ -1,0 +1,13 @@
+﻿{
+    "Generated":  "20260914",
+    "ProjectRoot":  "G:\\Unity\\Projects\\UnityMysteryExhibition",
+    "UnityVersion":  "2022.3.62f3c1",
+    "CaseId":  "mystery_exhibition_case",
+    "SuspectCount":  5,
+    "MainClueCount":  10,
+    "TargetImageCount":  11,
+    "VuforiaDatabaseStatus":  "not_generated_requires_target_manager_account_widths_and_download",
+    "MissingManifestSources":  0,
+    "VuforiaPackage":  "G:\\Unity\\Projects\\UnityMysteryExhibition\\Deliverables\\Vuforia_CaseTargets_20260914.zip",
+    "CompleteHandoffPackage":  "G:\\Unity\\Projects\\UnityMysteryExhibition\\Deliverables\\ExhibitionAssetHandoff_20260914.zip"
+}

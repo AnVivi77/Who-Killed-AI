@@ -1,0 +1,25 @@
+病历：
+这是一份病历，或者说学习记录
+上面记录了AI的一些学习过程
+很奇怪，如此强大的AI也需要学习吗？他需要学些什么呢？
+通过我的道具，我得以看到所有的真相
+This is a medical record, or rather, a learning record. 
+It records some of the learning processes of AI. 
+It's quite strange.
+Does such a powerful AI really need to learn from humans? 
+What does he need to learn? 
+Through my props, I was able to see all the truths
+
+解锁病历线索后可以看到的文本：
+AI自创立以来，一直在进步和革新，然而，对于人性的理解和模仿始终不够到位。
+为了解决这个问题，AI决定向全世界最权威的心理学家求助，积极了解人类的内心，企图能够更理解人，做出更好的抉择和判断。
+心理学家首先让AI从模仿人的打扮开始，比如，穿上西装，打上领带，带一个表
+“这样就能称为人吗？”
+“Far away”
+
+Since its establishment, AI has been constantly advancing and innovating. 
+However, its understanding and imitation of human nature have always been insufficient. 
+To solve this problem, AI decided to seek help from the world's most authoritative psychologists, actively understand the human heart, and attempt to better understand people and make better choices and judgments. 
+Psychologists first had AI start by imitating human attire, such as wearing a suit, a tie, and a watch. 
+"Does this mean one can be called a human?"
+“Far away”

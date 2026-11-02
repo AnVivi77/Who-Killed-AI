@@ -1,0 +1,49 @@
+{
+  "$schema": "case.schema.json",
+  "schemaVersion": 1,
+  "caseId": "mystery_exhibition_case",
+  "title": "CASE TITLE PENDING",
+  "isPlaceholder": true,
+  "introAssetId": "video_opening",
+  "finaleAssetId": "video_finale_normal",
+  "backgroundAssetId": "video_background",
+  "corpseAssetId": null,
+  "scanning": { "databaseAssetId": "vuforia_database", "databaseName": "CaseTargets" },
+  "settings": {
+    "scannerMode": "Mock",
+    "eventPlaybackMode": "AfterDelay",
+    "dossierAutoPlayDelaySeconds": 5,
+    "stableTrackingSeconds": 0.35,
+    "rearmAfterLostSeconds": 0.5,
+    "saveProgress": false,
+    "allowVideoSkip": false,
+    "autoRestartSeconds": 0
+  },
+  "suspects": [
+    { "id": "S01", "displayName": "Cleaning Robot", "profile": "Profile represented by the supplied Cleaner dossier artwork; editable text is pending.", "portraitAssetId": "portrait_s01", "dossierAssetId": "dossier_s01", "eventVideoAssetId": "video_s01" },
+    { "id": "S02", "displayName": "Engineer", "profile": "Profile represented by the supplied Engineer dossier artwork; editable text is pending.", "portraitAssetId": "portrait_s02", "dossierAssetId": "dossier_s02", "eventVideoAssetId": "video_s02" },
+    { "id": "S03", "displayName": "Psychologist", "profile": "Profile represented by the supplied Psychologist dossier artwork; editable text is pending.", "portraitAssetId": "portrait_s03", "dossierAssetId": "dossier_s03", "eventVideoAssetId": "video_s03" },
+    { "id": "S04", "displayName": "Repairman", "profile": "Profile represented by the supplied Mechanic dossier artwork; editable text is pending.", "portraitAssetId": "portrait_s04", "dossierAssetId": "dossier_s04", "eventVideoAssetId": "video_s04" },
+    { "id": "S05", "displayName": "Secretary", "profile": "Profile represented by the supplied Secretary dossier artwork; editable text is pending.", "portraitAssetId": "portrait_s05", "dossierAssetId": "dossier_s05", "eventVideoAssetId": "video_s05" }
+  ],
+  "clues": [
+    { "id": "CL_S01_BEHAVIOR", "suspectId": "S01", "slotIndex": 1, "title": "Behavior", "body": "This is an operating manual, or rather an instruction file. It records how the cleaning robot performs its work. But what does this have to do with the case?", "displayImageAssetId": "clue_s01_behavior", "targetImageAssetId": "clue_s01_behavior", "targetName": "Clue_S01_Behavior", "physicalWidthMeters": null },
+    { "id": "CL_S01_INFORMATION", "suspectId": "S01", "slotIndex": 2, "title": "Information", "body": "Image clue supplied; written description pending.", "displayImageAssetId": "clue_s01_information", "targetImageAssetId": "clue_s01_information", "targetName": "Clue_S01_Information", "physicalWidthMeters": null },
+    { "id": "CL_S02_BEHAVIOR", "suspectId": "S02", "slotIndex": 1, "title": "Behavior", "body": "This disc was difficult to repair, but you eventually succeeded. It records a shocking secret about a wrongful case from five years ago. A fatal oversight led the AI to make the wrong judgment, causing the deaths of dozens of people; some of them may have survived...", "displayImageAssetId": "clue_s02_behavior", "targetImageAssetId": "clue_s02_behavior", "targetName": "Clue_S02_Behavior", "physicalWidthMeters": null },
+    { "id": "CL_S02_INFORMATION", "suspectId": "S02", "slotIndex": 2, "title": "Information", "body": "Image clue supplied; written description pending.", "displayImageAssetId": "clue_s02_information", "targetImageAssetId": "clue_s02_information", "targetName": "Clue_S02_Information", "physicalWidthMeters": null },
+    { "id": "CL_S03_BEHAVIOR", "suspectId": "S03", "slotIndex": 1, "title": "Behavior", "body": "This is a medical record, or perhaps a learning record. It documents part of the AI's learning process. Strange: even such a powerful AI needs to learn. What does it need to learn? Through this prop, I can see the truth.", "displayImageAssetId": "clue_s03_behavior", "targetImageAssetId": "clue_s03_behavior", "targetName": "Clue_S03_Behavior", "physicalWidthMeters": null },
+    { "id": "CL_S03_INFORMATION", "suspectId": "S03", "slotIndex": 2, "title": "Information", "body": "Since its creation, the AI has continued to improve and innovate. Yet its understanding and imitation of human nature have never been sufficient. To solve this, the AI sought help from the world's leading psychologist, trying to understand the human mind and make better choices and judgments.", "displayImageAssetId": "clue_s03_information", "targetImageAssetId": "clue_s03_information", "targetName": "Clue_S03_Information", "physicalWidthMeters": null },
+    { "id": "CL_S04_BEHAVIOR", "suspectId": "S04", "slotIndex": 1, "title": "Behavior", "body": "This photograph appears to show the daughter of the toolbox owner. The back is marked with a birth date and a death date... five years ago.", "displayImageAssetId": "clue_s04_behavior", "targetImageAssetId": "clue_s04_behavior", "targetName": "Clue_S04_Behavior", "physicalWidthMeters": null },
+    { "id": "CL_S04_INFORMATION", "suspectId": "S04", "slotIndex": 2, "title": "Information", "body": "Image clue supplied; written description pending.", "displayImageAssetId": "clue_s04_information", "targetImageAssetId": "clue_s04_information", "targetName": "Clue_S04_Information", "physicalWidthMeters": null },
+    { "id": "CL_S05_BEHAVIOR", "suspectId": "S05", "slotIndex": 1, "title": "Behavior", "body": "This is a telephone recording. The voice sounds like the secretary. It appears that the secretary was also part of the opposition. Could the secretary be the real killer?", "displayImageAssetId": "clue_s05_behavior", "targetImageAssetId": "clue_s05_behavior", "targetName": "Clue_S05_Behavior", "physicalWidthMeters": null },
+    { "id": "CL_S05_INFORMATION", "suspectId": "S05", "slotIndex": 2, "title": "Information", "body": "Image clue supplied; written description pending.", "displayImageAssetId": "clue_s05_information", "targetImageAssetId": "clue_s05_information", "targetName": "Clue_S05_Information", "physicalWidthMeters": null }
+  ],
+  "detective": {
+    "id": "D01",
+    "displayName": "Detective",
+    "informationClueId": "CL_DETECTIVE_INFORMATION",
+    "targetName": "Detective_Information",
+    "targetImageAssetId": "clue_detective_information",
+    "easterEggVideoAssetId": "video_detective_egg"
+  }
+}

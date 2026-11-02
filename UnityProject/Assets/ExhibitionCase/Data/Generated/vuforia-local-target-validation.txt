@@ -1,0 +1,16 @@
+﻿Vuforia local target/package validation
+Run time: 2026-09-29 23:47:24
+
+PASS: scene contains the expected 11 ImageTarget mappings.
+PASS: SourceAssets/06_Vuforia/Database/CaseTargets.unitypackage (1085377 bytes).
+PASS: Assets/StreamingAssets/Vuforia/CaseTargets.xml (882 bytes).
+PASS: Assets/StreamingAssets/Vuforia/CaseTargets.dat (370191 bytes).
+PASS: all 11 target source images exist at their manifest paths.
+PASS: all 11 stable-ID target textures are imported and bound in CaseConfig.asset.
+PASS: stable IDs, target names, source files, imported target textures and database files are consistent.
+
+NOT RUN: direct Vuforia recognition from a static PNG/JPG.
+Reason: Vuforia Play Mode accepts a webcam, simulator or a .vuforia session recording; it does not expose a Texture2D/PNG-as-camera-frame API.
+Real recognition still requires a webcam or a Vuforia .vuforia recording file. The current machine has no present camera device and no recording file in this workspace.
+This report therefore separates package integrity from camera/recording recognition and does not mark scanning as passed.
+WARN: CaseConfig: This case is still marked as placeholder content and cannot pass formal acceptance.

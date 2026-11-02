@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07f7ec6a1d29c54884debde229f6fa7, type: 3}
+  m_Name: CaseConfig
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  caseId: mystery_exhibition_case
+  title: CASE TITLE PENDING
+  isPlaceholder: 1
+  introAssetId: video_opening
+  finaleAssetId: video_finale_normal
+  backgroundAssetId: video_background
+  corpseAssetId: 
+  settings:
+    scannerMode: Vuforia
+    eventPlaybackMode: AfterDelay
+    dossierAutoPlayDelaySeconds: 3
+    stableTrackingSeconds: 0.35
+    rearmAfterLostSeconds: 0.5
+    saveProgress: 0
+    allowVideoSkip: 0
+    autoRestartSeconds: 0
+  suspects:
+  - id: S01
+    displayName: Cleaning Robot
+    profile: Profile represented by the supplied Cleaner dossier artwork; editable
+      text is pending.
+    portraitAssetId: portrait_s01
+    dossierAssetId: dossier_s01
+    eventVideoAssetId: video_s01
+  - id: S02
+    displayName: Engineer
+    profile: Profile represented by the supplied Engineer dossier artwork; editable
+      text is pending.
+    portraitAssetId: portrait_s02
+    dossierAssetId: dossier_s02
+    eventVideoAssetId: video_s02
+  - id: S03
+    displayName: Psychologist
+    profile: Profile represented by the supplied Psychologist dossier artwork; editable
+      text is pending.
+    portraitAssetId: portrait_s03
+    dossierAssetId: dossier_s03
+    eventVideoAssetId: video_s03
+  - id: S04
+    displayName: Repairman
+    profile: Profile represented by the supplied Mechanic dossier artwork; editable
+      text is pending.
+    portraitAssetId: portrait_s04
+    dossierAssetId: dossier_s04
+    eventVideoAssetId: video_s04
+  - id: S05
+    displayName: Secretary
+    profile: Profile represented by the supplied Secretary dossier artwork; editable
+      text is pending.
+    portraitAssetId: portrait_s05
+    dossierAssetId: dossier_s05
+    eventVideoAssetId: video_s05
+  clues:
+  - id: CL_S01_BEHAVIOR
+    suspectId: S01
+    slotIndex: 1
+    title: Behavior
+    body: This is an operating manual, or rather an instruction file. It records
+      how the cleaning robot performs its work. But what does this have to do with
+      the case?
+    displayImageAssetId: clue_s01_behavior
+    targetImageAssetId: clue_s01_behavior
+    targetName: clue_s01_behavior
+    physicalWidthMeters: 0.1
+  - id: CL_S01_INFORMATION
+    suspectId: S01
+    slotIndex: 2
+    title: Information
+    body: Image clue supplied; written description pending.
+    displayImageAssetId: clue_s01_information
+    targetImageAssetId: clue_s01_information
+    targetName: clue_s01_information
+    physicalWidthMeters: 0.1
+  - id: CL_S02_BEHAVIOR
+    suspectId: S02
+    slotIndex: 1
+    title: Behavior
+    body: This disc was difficult to repair, but you eventually succeeded. It records
+      a shocking secret about a wrongful case from five years ago. A fatal oversight
+      led the AI to make the wrong judgment, causing the deaths of dozens of people;
+      some of them may have survived...
+    displayImageAssetId: clue_s02_behavior
+    targetImageAssetId: clue_s02_behavior
+    targetName: clue_s02_behavior
+    physicalWidthMeters: 0.1
+  - id: CL_S02_INFORMATION
+    suspectId: S02
+    slotIndex: 2
+    title: Information
+    body: Image clue supplied; written description pending.
+    displayImageAssetId: clue_s02_information
+    targetImageAssetId: clue_s02_information
+    targetName: clue_s02_information
+    physicalWidthMeters: 0.1
+  - id: CL_S03_BEHAVIOR
+    suspectId: S03
+    slotIndex: 1
+    title: Behavior
+    body: 'This is a medical record, or perhaps a learning record. It documents part
+      of the AI''s learning process. Strange: even such a powerful AI needs to learn.
+      What does it need to learn? Through this prop, I can see the truth.'
+    displayImageAssetId: clue_s03_behavior
+    targetImageAssetId: clue_s03_behavior
+    targetName: clue_s03_behavior
+    physicalWidthMeters: 0.1
+  - id: CL_S03_INFORMATION
+    suspectId: S03
+    slotIndex: 2
+    title: Information
+    body: Since its creation, the AI has continued to improve and innovate. Yet its
+      understanding and imitation of human nature have never been sufficient. To
+      solve this, the AI sought help from the world's leading psychologist, trying
+      to understand the human mind and make better choices and judgments.
+    displayImageAssetId: clue_s03_information
+    targetImageAssetId: clue_s03_information
+    targetName: clue_s03_information
+    physicalWidthMeters: 0.1
+  - id: CL_S04_BEHAVIOR
+    suspectId: S04
+    slotIndex: 1
+    title: Behavior
+    body: This photograph appears to show the daughter of the toolbox owner. The
+      back is marked with a birth date and a death date... five years ago.
+    displayImageAssetId: clue_s04_behavior
+    targetImageAssetId: clue_s04_behavior
+    targetName: clue_s04_behavior
+    physicalWidthMeters: 0.1
+  - id: CL_S04_INFORMATION
+    suspectId: S04
+    slotIndex: 2
+    title: Information
+    body: Image clue supplied; written description pending.
+    displayImageAssetId: clue_s04_information
+    targetImageAssetId: clue_s04_information
+    targetName: clue_s04_information
+    physicalWidthMeters: 0.1
+  - id: CL_S05_BEHAVIOR
+    suspectId: S05
+    slotIndex: 1
+    title: Behavior
+    body: This is a telephone recording. The voice sounds like the secretary. It
+      appears that the secretary was also part of the opposition. Could the secretary
+      be the real killer?
+    displayImageAssetId: clue_s05_behavior
+    targetImageAssetId: clue_s05_behavior
+    targetName: clue_s05_behavior
+    physicalWidthMeters: 0.1
+  - id: CL_S05_INFORMATION
+    suspectId: S05
+    slotIndex: 2
+    title: Information
+    body: Image clue supplied; written description pending.
+    displayImageAssetId: clue_s05_information
+    targetImageAssetId: clue_s05_information
+    targetName: clue_s05_information
+    physicalWidthMeters: 0.1
+  detective:
+    id: D01
+    displayName: Detective
+    informationClueId: CL_DETECTIVE_INFORMATION
+    targetName: detective_information
+    targetImageAssetId: clue_detective_information
+    easterEggVideoAssetId: video_detective_egg
+  assets:
+  - id: video_opening
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Opening/f29bdd5f11753d4df45b3aa879d1bbe4.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_opening.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: e47fbcc5fe498804fad9df6e5e975aa3, type: 3}
+  - id: video_background
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/background.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_background.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: 82be8da19664f084a963a371706dc03c, type: 3}
+  - id: video_finale_normal
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Ending/Normalending.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_finale_normal.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: f746653039a61af44b25de4695c1b5f7, type: 3}
+  - id: video_finale_bad
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Ending/badending.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_finale_bad.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: 2433a377c83812a43b1da2e862de464c, type: 3}
+  - id: video_detective_egg
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Ending/egg.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_detective_egg.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: 5d38b103b13d4394ca81993ced583fd9, type: 3}
+  - id: video_s01
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/CleanRobot/cleaner.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_s01.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: add4be54009f2954dadeb28cbd8365c4, type: 3}
+  - id: video_s02
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u4FEE\u6539\u89C6\u9891/engineer.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_s02.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: f9816946d2061764f9f790c00d0c6fbd, type: 3}
+  - id: video_s03
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u4FEE\u6539\u89C6\u9891/psychologist.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_s03.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: 78a3007d3dc94544295358a538f91ac9, type: 3}
+  - id: video_s04
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Repairman/repairman.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_s04.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: dbe72628e7f379547b0b91e0876f894e, type: 3}
+  - id: video_s05
+    kind: 0
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Secretary/b5602e37fc8993d116b73b7ece323e8e.mp4"
+    importedPath: Assets/ExhibitionCase/Imported/Videos/video_s05.mp4
+    texture: {fileID: 0}
+    video: {fileID: 32900000, guid: 6841b4d71fb413a43ac8ddd216edc4e3, type: 3}
+  - id: portrait_s01
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/CleanRobot/Clean_Robot_Full.JPEG"
+    importedPath: Assets/ExhibitionCase/Imported/Images/portrait_s01.jpeg
+    texture: {fileID: 2800000, guid: c7470f29172c5e14b8387776f9c94db3, type: 3}
+    video: {fileID: 0}
+  - id: portrait_s02
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Engineer/Engineer_Full.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/portrait_s02.png
+    texture: {fileID: 2800000, guid: 84448a0d8036df64998adff4455363e4, type: 3}
+    video: {fileID: 0}
+  - id: portrait_s03
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Psychologist/Psychologist_Full.JPEG"
+    importedPath: Assets/ExhibitionCase/Imported/Images/portrait_s03.jpeg
+    texture: {fileID: 2800000, guid: 982a1c00793e48e4780285afb9bd60cd, type: 3}
+    video: {fileID: 0}
+  - id: portrait_s04
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Repairman/Repairman_Full.PNG"
+    importedPath: Assets/ExhibitionCase/Imported/Images/portrait_s04.png
+    texture: {fileID: 2800000, guid: eab75107a917dab479db1d821ece94bd, type: 3}
+    video: {fileID: 0}
+  - id: portrait_s05
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Secretary/Secretary_Full.PNG"
+    importedPath: Assets/ExhibitionCase/Imported/Images/portrait_s05.png
+    texture: {fileID: 2800000, guid: 4054e1d5072f2af45be0b25e35981b66, type: 3}
+    video: {fileID: 0}
+  - id: dossier_s01
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Files/\u4EBA\u7269\u7EBF\u7D22\u7248/\u6E05\u6D01\u5DE5.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/dossier_s01.png
+    texture: {fileID: 2800000, guid: 70bc8aa3c77795547b985579c1d0bb31, type: 3}
+    video: {fileID: 0}
+  - id: dossier_s02
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Files/\u4EBA\u7269\u7EBF\u7D22\u7248/\u5DE5\u7A0B\u5E08.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/dossier_s02.png
+    texture: {fileID: 2800000, guid: d6e2d87c26cf61440928d5548ca0eec9, type: 3}
+    video: {fileID: 0}
+  - id: dossier_s03
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Files/\u4EBA\u7269\u7EBF\u7D22\u7248/\u5FC3\u7406\u533B\u751F.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/dossier_s03.png
+    texture: {fileID: 2800000, guid: 7a003e53a309cf147ac70c82b855dc2f, type: 3}
+    video: {fileID: 0}
+  - id: dossier_s04
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Files/\u4EBA\u7269\u7EBF\u7D22\u7248/\u4FEE\u7406\u5DE5.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/dossier_s04.png
+    texture: {fileID: 2800000, guid: af91141f8692bf04b8b4c4d2b6450f0f, type: 3}
+    video: {fileID: 0}
+  - id: dossier_s05
+    kind: 1
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Files/\u4EBA\u7269\u7EBF\u7D22\u7248/\u79D8\u4E66.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/dossier_s05.png
+    texture: {fileID: 2800000, guid: 232645f6769275a41b8984b3b1240038, type: 3}
+    video: {fileID: 0}
+  - id: clue_s01_behavior
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/CleanRobot/CleanRobot_Behavior.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s01_behavior.png
+    texture: {fileID: 2800000, guid: 1019ca18c1fb876458eb3ad7dfe82019, type: 3}
+    video: {fileID: 0}
+  - id: clue_s01_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/CleanRobot/CleanRobot_Infor.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s01_information.png
+    texture: {fileID: 2800000, guid: 141488569f27db545a0d75183d49ab43, type: 3}
+    video: {fileID: 0}
+  - id: clue_s02_behavior
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Engineer/Engineer_Behavior.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s02_behavior.png
+    texture: {fileID: 2800000, guid: 4e7286f1c5c6f8e43bdbc411805c4c2b, type: 3}
+    video: {fileID: 0}
+  - id: clue_s02_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Engineer/Engineer_Infor.jpg"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s02_information.jpg
+    texture: {fileID: 2800000, guid: dcab33a128daa3644876354f4b597713, type: 3}
+    video: {fileID: 0}
+  - id: clue_s03_behavior
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Psychologist/Psychologist_Behavior.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s03_behavior.png
+    texture: {fileID: 2800000, guid: 746679a0f69dcb245be3b522d197f180, type: 3}
+    video: {fileID: 0}
+  - id: clue_s03_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Psychologist/Psychologist_Infor.jpg"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s03_information.jpg
+    texture: {fileID: 2800000, guid: d70d222a236f3034b81ca74ebf100f02, type: 3}
+    video: {fileID: 0}
+  - id: clue_s04_behavior
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Repairman/Repairman_Behavior.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s04_behavior.png
+    texture: {fileID: 2800000, guid: b97da17dac2421e43a2c324932950677, type: 3}
+    video: {fileID: 0}
+  - id: clue_s04_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Repairman/Repairman_Infor.jpg"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s04_information.jpg
+    texture: {fileID: 2800000, guid: 09bfcc574287110428285428efb26aaf, type: 3}
+    video: {fileID: 0}
+  - id: clue_s05_behavior
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Secretary/Secretary_Behavior.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s05_behavior.png
+    texture: {fileID: 2800000, guid: bc5d3599fdae0e94dae31a898a9c2919, type: 3}
+    video: {fileID: 0}
+  - id: clue_s05_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Secretary/Secretary_Infor.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_s05_information.png
+    texture: {fileID: 2800000, guid: 64585e3856d6c774db54f15265184f0c, type: 3}
+    video: {fileID: 0}
+  - id: clue_detective_information
+    kind: 2
+    sourcePath: "SourceAssets/00_Inbox_\u5F85\u6574\u7406/\u7D20\u6750\u5408\u96C6/Detective/Detective_Infor.png"
+    importedPath: Assets/ExhibitionCase/Imported/Images/clue_detective_information.png
+    texture: {fileID: 2800000, guid: 2e00b91064f52944293dd0c27a739354, type: 3}
+    video: {fileID: 0}
+  - id: vuforia_database
+    kind: 3
+    sourcePath: 
+    importedPath: 
+    texture: {fileID: 0}
+    video: {fileID: 0}

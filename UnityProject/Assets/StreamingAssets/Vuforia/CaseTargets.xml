@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="clue_s01_behavior" size="0.100000 0.055781" />
+    <ImageTarget name="clue_s05_behavior" size="0.100000 0.109342" />
+    <ImageTarget name="clue_s04_behavior" size="0.100000 0.055781" />
+    <ImageTarget name="clue_s05_information" size="0.100000 0.110169" />
+    <ImageTarget name="clue_s02_information" size="0.100000 0.075000" />
+    <ImageTarget name="clue_s04_information" size="0.100000 0.126173" />
+    <ImageTarget name="detective_information" size="0.100000 0.074971" />
+    <ImageTarget name="clue_s03_information" size="0.100000 0.133385" />
+    <ImageTarget name="clue_s03_behavior" size="0.100000 0.133385" />
+    <ImageTarget name="clue_s02_behavior" size="0.100000 0.133385" />
+    <ImageTarget name="clue_s01_information" size="0.100000 0.133385" />
+  </Tracking>
+</QCARConfig>

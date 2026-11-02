@@ -1,0 +1,13 @@
+损坏的光盘
+解锁光盘后可以看到的文本：
+这份光盘很难被修复
+好在你还是最终做到了
+这份光盘记录了一个惊天的大秘密
+关于五年前的一场冤假错案
+一个致命的疏忽让AI做出了错误的判断
+从而导致数十人的死亡，他们中可能有能够活下去的人...
+
+This CD is very hard to fix, but you still managed to do it. 
+This CD records a shocking secret about a wrongful conviction that occurred five years ago. 
+A fatal oversight led the AI to make a wrong judgment, resulting in the deaths of dozens of people. 
+Among them, there might be some who survived...

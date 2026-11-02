@@ -1,0 +1,298 @@
+﻿[
+    {
+        "Id":  "video_opening",
+        "Kind":  "video",
+        "Destination":  "01_Videos/Intro/opening.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Opening/f29bdd5f11753d4df45b3aa879d1bbe4.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_background",
+        "Kind":  "video",
+        "Destination":  "04_Environment/background.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/background.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_finale_normal",
+        "Kind":  "video",
+        "Destination":  "01_Videos/Finale/normalending.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Ending/Normalending.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_finale_bad",
+        "Kind":  "video",
+        "Destination":  "01_Videos/Finale/badending.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Ending/badending.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "optional"
+    },
+    {
+        "Id":  "video_detective_egg",
+        "Kind":  "video",
+        "Destination":  "01_Videos/Finale/detective-egg.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Ending/egg.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "optional"
+    },
+    {
+        "Id":  "video_s01",
+        "Kind":  "video",
+        "Destination":  "01_Videos/SuspectEvents/S01.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/CleanRobot/cleaner.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_s02",
+        "Kind":  "video",
+        "Destination":  "01_Videos/SuspectEvents/S02.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Engineer/engineer.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_s03",
+        "Kind":  "video",
+        "Destination":  "01_Videos/SuspectEvents/S03.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Psychologist/Psychologist.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_s04",
+        "Kind":  "video",
+        "Destination":  "01_Videos/SuspectEvents/S04.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Repairman/repairman.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "video_s05",
+        "Kind":  "video",
+        "Destination":  "01_Videos/SuspectEvents/S05.mp4",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Secretary/b5602e37fc8993d116b73b7ece323e8e.mp4",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "portrait_s01",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S01/portrait.jpeg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/CleanRobot/Clean_Robot_Full.JPEG",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "portrait_s02",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S02/portrait.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Engineer/Engineer_Full.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "portrait_s03",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S03/portrait.jpeg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Psychologist/Psychologist_Full.JPEG",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "portrait_s04",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S04/portrait.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Repairman/Repairman_Full.PNG",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "portrait_s05",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S05/portrait.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Secretary/Secretary_Full.PNG",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "dossier_s01",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S01/dossier.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Files/人物线索版/清洁工.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "dossier_s02",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S02/dossier.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Files/人物线索版/工程师.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "dossier_s03",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S03/dossier.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Files/人物线索版/心理医生.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "dossier_s04",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S04/dossier.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Files/人物线索版/修理工.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "dossier_s05",
+        "Kind":  "image",
+        "Destination":  "02_Suspects/S05/dossier.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Files/人物线索版/秘书.png",
+        "Status":  "copied",
+        "RequiredFor":  "production"
+    },
+    {
+        "Id":  "clue_s01_behavior",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S01_Behavior.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/CleanRobot/CleanRobot_Behavior.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s01_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S01_Information.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/CleanRobot/CleanRobot_Infor.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s02_behavior",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S02_Behavior.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Engineer/Engineer_Behavior.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s02_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S02_Information.jpg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Engineer/Engineer_Infor.jpg",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s03_behavior",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S03_Behavior.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Psychologist/Psychologist_Behavior.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s03_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S03_Information.jpg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Psychologist/Psychologist_Infor.jpg",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s04_behavior",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S04_Behavior.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Repairman/Repairman_Behavior.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s04_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S04_Information.jpg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Repairman/Repairman_Infor.jpg",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s05_behavior",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S05_Behavior.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Secretary/Secretary_Behavior.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_s05_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Clue_S05_Information.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Secretary/Secretary_Infor.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "clue_detective_information",
+        "Kind":  "targetImage",
+        "Destination":  "03_Clues/TargetImages/Detective_Information.png",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Detective/Detective_Infor.png",
+        "Status":  "copied",
+        "RequiredFor":  "realScanning"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Detective/Detective_Full.PNG",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Detective/Detective_Full.PNG",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Detective/Detective_Half.jpg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Detective/Detective_Half.jpg",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Engineer/Engineer_Half.jpg",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Engineer/Engineer_Half.jpg",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Psychologist/Psychologist_Half.JPEG",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Psychologist/Psychologist_Half.JPEG",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Repairman/Repariman_Half.JPEG",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Repairman/Repariman_Half.JPEG",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    },
+    {
+        "Id":  "",
+        "Kind":  "extraOriginal",
+        "Destination":  "05_Extras/Originals_NotInManifest/Secretary/Secretary_Half.JPEG",
+        "SourcePath":  "SourceAssets/00_Inbox_待整理/素材合集/Secretary/Secretary_Half.JPEG",
+        "Status":  "copied_for_reference",
+        "RequiredFor":  "not_bound_by_case_manifest"
+    }
+]

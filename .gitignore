@@ -1,0 +1,44 @@
+# Unity generated folders; retain Assets, Packages and ProjectSettings.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+.DS_Store
+Thumbs.db
+# Local-only credentials. Do not store real license keys in handoff documents.
+*.local.json
+*.local.txt
+.env
+LocalSecrets/
+
+# Local diagnostics, machine-specific backups, and large generated archive
+/access_*.log
+/error_*.log
+/LocalBackups/
+/SafeNet Sentinel/
+/UnityProject.zip
+
+# Regenerable handoff archives; keep their source folders and packaging script
+/Deliverables/*.zip
+
+# The project resolves Vuforia from the local tarball in UnityProject/Packages.
+# Do not commit the duplicate installer package.
+/Vuforia/add-vuforia-package-11-4-4.unitypackage
+
+# This Unity asset contains the real Vuforia license key; re-enter it locally
+# after cloning, via Project Settings > Vuforia Engine.
+/UnityProject/Assets/Resources/VuforiaConfiguration.asset
+
+# Local UWP signing certificate contains a private key; use a local cert.
+/UnityProject/Assets/WSATestCertificate.pfx
